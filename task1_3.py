@@ -18,8 +18,5 @@ d4 = d1 % 10
 s1 = n % 1000
 s2 = s1 // 100
 s3 = s1 // 10 % 10
-s4 = s1 % 10
-if (d2 + d3 + d4) == (s2 + s3 + s4):
-    print("YES")
-else:
-    print('NO')    
+s4 = s1 % 10 
+print('YES' if (d2 + d3 + d4) == (s2 + s3 + s4) else 'No')
