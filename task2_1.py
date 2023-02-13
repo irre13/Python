@@ -14,5 +14,4 @@ elif max < min:
      print(max)  
 else: 
     n / 2      
-    print(min)
 
