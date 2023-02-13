@@ -10,7 +10,7 @@
 def exponentiation(a, b):    
      exp = a ** b
      return int(exp)
-print(exponentiation(5, 2))
+print(exponentiation(2, 3))
 
 
 
